@@ -35,7 +35,7 @@ public class CountBolt extends BaseBasicBolt {
 
     }
 
-    //如果下游没有bolt，数据就不用往下发送了，也不用管这个方法了
+    //如果下游没有bolt，数据就不用往下发送了，也不用管这个方法了哈哈哈哈哈
     @Override
     public void declareOutputFields(OutputFieldsDeclarer declarer) {
 
